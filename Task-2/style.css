@@ -260,7 +260,7 @@ marquee iframe{
 .back1{
     width: 100%;
     min-height: 21vh;
-    background-image:linear-gradient(rgba(10, 70, 37, 0.7),rgba(4,9,30,0.7)), url(background.jpg) ;
+    background-image:linear-gradient(rgba(10, 70, 37, 0.7),rgba(4,9,30,0.7)), url(background1.jpg) ;
     background-position: center;
     background-size: cover;
 }
