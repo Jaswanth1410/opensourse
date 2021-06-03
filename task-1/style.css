@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background: url(photos/back.png);
+    background-size: cover;
+    /* background-position:center ; */
+    position:sticky;
+}
+.home img{
+    width: 120px;
+    transform: translate(80px,40px);
+}
+.text{
+    transform: translate(80px,140px);
+    color: whitesmoke;
+    font-size: 40px;
+}
+.text p{
+    width: 300px;
+    font-size: 12px;
+    color: wheat;
+    text-align: justify;
+}
+.hero-btn{
+    margin-top: 30px;
+
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #f44336;
+    border-radius: 30px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #f44336;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #ffffff;
+    transition: 1s;
+    color: rgb(255, 0, 0);
+}
+.row1{
+    background-color: rgb(255, 71, 71);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 24.4%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+.places{
+    width: 80%;
+    /* margin: auto; */
+    margin-top: 0;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-right: 152px;
+    padding-left: 152px;
+    background-color: rgb(250, 237, 53);
+}
+.places h1{padding-top: 10px;
+    font-size: 36px;
+    font-weight: 600;
+    color: tomato;
+}
+.places p{
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row2{
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-between; 
+}
+.places-col{
+    flex-basis: 32%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.places-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    background-color: rgb(248, 230, 196);
+}
+.places-col img{
+    background: transparent;
+    width: 100%;
+    transition:0.5s;
+    height: 270px;
+}
+.places-col img:hover{
+    background: rgba(226,0,0,0.7);
+}
+/*----footer-----*/
+.footer{
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: rgb(87, 82, 82);
+}
+
+.footer h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 0;
+    color: white;
+}
+#icons {
+    text-align: center;
+                width: 100%;
+}
+#icons i{
+    font-size: 28px;
+    color: tomato;
+    cursor: pointer;
+    padding: 22px;
+}
+.footer p{
+    text-align: center;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: rgb(243, 229, 201);
+}
+.btn{
+    display: none;
+    }
